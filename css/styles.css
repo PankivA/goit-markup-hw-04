@@ -153,6 +153,12 @@ ul {
   color: var(--secondary-text-color);
 }
 
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -160,7 +166,6 @@ ul {
 .contacts-img {
   margin-right: 10px;
   fill: var(--secondary-text-color);
-  vertical-align: middle;
 }
 
 .header-contacts .link:hover .contacts-img,
