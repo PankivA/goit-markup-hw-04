@@ -73,11 +73,16 @@ ul {
 
 /* Header */
 
+.header {
+  max-width: 1600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ececec;
+}
+
 .header-container {
   display: flex;
   align-items: center;
   padding: 0 15px;
-  border-bottom: 1px solid #ececec;
 }
 
 .site-nav {
@@ -190,6 +195,7 @@ ul {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -212,7 +218,6 @@ ul {
 }
 
 .footer-socials {
-  padding-top: 12px;
   margin-left: 70px;
 }
 
@@ -482,7 +487,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   background-color: inherit;
@@ -533,10 +537,15 @@ ul {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-item .link {
+  display: block;
+}
+
+.portfolio-item .link:hover,
+.portfolio-item .link:focus{
+  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-item .link img {
