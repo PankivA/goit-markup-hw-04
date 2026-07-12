@@ -1,0 +1,39 @@
+.footer {
+    padding: 100px 0;
+    background-color: #2e2f42;
+    color: #F4F4FD;
+    
+}
+
+.footer-wrapper {
+    display: flex;
+}
+
+.footer-contacts {
+    margin-left: 120px;
+}
+
+.footer-contacts-name {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    margin-top: 16px;
+    max-width: 264px;
+    letter-spacing: 0.02em;
+}
+
+.footer-socials {
+    gap: 16px;
+}
+
+.footer-socials .social-item:hover,
+.footer-socials .social-item:focus {
+    background-color:#31D0AABF;
+}
