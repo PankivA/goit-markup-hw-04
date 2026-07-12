@@ -9,16 +9,6 @@
     display: flex;
 }
 
-.footer-contacts {
-    margin-left: 120px;
-}
-
-.footer-contacts-name {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
-}
-
 .footer-logo {
     color: #F4F4FD;
 }
@@ -29,11 +19,22 @@
     letter-spacing: 0.02em;
 }
 
+.footer-contacts {
+    margin-left: 120px;
+}
+
+.footer-contacts-name {
+    color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
 .footer-socials {
     gap: 16px;
 }
 
 .footer-socials .social-item:hover,
 .footer-socials .social-item:focus {
-    background-color:#31D0AABF;
+    background-color:#31D0AA;
 }
